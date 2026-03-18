@@ -31,7 +31,7 @@ export default function Page() {
         <Process />
         <Services />
         <Why />
-        <Clients />
+        {/* <Clients /> */}
         <Partners />
       </div>
       <CTA />
