@@ -75,7 +75,7 @@ export default function Hero() {
       } : {
         /* Desktop: unchanged — full viewport height, vertically centered */
         minHeight: "100vh",
-        paddingTop: '105px',
+         paddingTop: "105px",
         display: "flex",
         alignItems: "center",
       }}
@@ -100,7 +100,7 @@ export default function Hero() {
             <h1
               ref={headingRef}
               className="font-black tracking-tight leading-[0.95] mb-6 md:mb-7"
-              style={{ fontSize: "clamp(42px,6vw,70 px)", perspective: "900px" }}
+              style={{ fontSize: "clamp(42px,9vw,75px)", perspective: "900px" }}
             >
               {[
                 <>We Turn</>,
